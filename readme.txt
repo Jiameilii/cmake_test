@@ -9,6 +9,6 @@ cd build
 
 cmake -DCMAKE_TOOLCHAIN_FILE=../toolchain.cmake ..
 
-<modify CMakeFiles/my.dir/link.txt ,add -T /workspace/repos/github/pine64/cmake_test/my.lds>
+<modify CMakeFiles/my.dir/link.txt ,add -T path/to/my.lds>
 
 make
